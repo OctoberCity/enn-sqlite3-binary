@@ -3,7 +3,7 @@
   "description": "sqlite3 binary for x64(win32),arm(linux)",
   "version": "0.0.9",
   "binary": {
-    "module_name": "enn_sqlite3_binary",
+    "module_name": "node_sqlite3",
     "module_path": "./lib/binding/{platform}-{arch}",
     "host": "https://github.com/OctoberCity/enn-sqlite3-binary/releases/download/",
     "remote_path": "v{version}",
