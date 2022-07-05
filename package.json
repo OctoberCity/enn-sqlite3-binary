@@ -1,0 +1,44 @@
+{
+  "name": "enn-sqlite3-binary",
+  "description": "sqlite3 binary for x64(win32),arm(linux)",
+  "version": "0.0.3",
+  "binary": {
+    "module_name": "enn-sqlite3-binary",
+    "module_path": "./lib/binding/{platform}-{arch}",
+    "host": "https://github.com/OctoberCity/releases/download/",
+    "remote_path": "v{version}",
+    "package_name": "{platform}-{arch}.tar.gz"
+  },
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "node-gyp": "8.x"
+  },
+  "peerDependenciesMeta": {
+    "node-gyp": {
+      "optional": true
+    }
+  },
+  "optionalDependencies": {
+    "node-gyp": "8.x"
+  },
+  "os": [
+    "win32",
+    "linux"
+  ],
+  "cpu": [
+    "arm",
+    "x64"
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "sql",
+    "sqlite",
+    "sqlite3",
+    "database",
+    "binary"
+  ],
+  "main": "./lib/sqlite3"
+}
