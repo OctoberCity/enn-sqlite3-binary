@@ -1,7 +1,7 @@
 {
   "name": "enn-sqlite3-binary",
   "description": "sqlite3 binary for x64(win32),arm(linux)",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "binary": {
     "module_name": "node_sqlite3",
     "module_path": "./lib/binding/{platform}-{arch}",
