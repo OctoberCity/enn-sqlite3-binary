@@ -23,9 +23,7 @@ napi-v{napi_build_version}-{platform}-{libc}-{arch}
   const  process = require("process");
   console.log(`napi-v${process.versions.napi}-${process.platform}-{libc}-${process.arch}`);
 ```
-
-https://github.com/OctoberCity/NeteaseCloudMusicApi/releases/download/v4.0.1/linux-arm.tar.gz
-
+ 
 
  
 
