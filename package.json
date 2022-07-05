@@ -5,7 +5,7 @@
   "binary": {
     "module_name": "enn-sqlite3-binary",
     "module_path": "./lib/binding/{platform}-{arch}",
-    "host": "https://github.com/OctoberCity/releases/download/",
+    "host": "https://github.com/OctoberCity/enn-sqlite3-binary/releases/download/",
     "remote_path": "v{version}",
     "package_name": "{platform}-{arch}.tar.gz"
   },
